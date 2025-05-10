@@ -32,8 +32,11 @@ Test the agent with diverse queries to evaluate the quality of its responses.
 
 ### PROGRAM:
 ```
+BY: Jeevanesh S
+Reg : 212222243002
 from helper import get_openai_api_key
 OPENAI_API_KEY = get_openai_api_key()
+
 import nest_asyncio
 nest_asyncio.apply()
 urls = [
